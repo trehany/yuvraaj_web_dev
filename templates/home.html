@@ -24,10 +24,15 @@
     I enjoy learning new programming languages and improving my skills through real-world projects and challenges. 
     For me, coding isnt just a skill — its a way to think, create, and continuously grow. 
         </p>
-        <h2 class="text-center mt-3 mb-3"> Random Option </h2>
-        <p> show a list here</p>
+        <h2 class="text-center mt-3 mb-3"> List of Options </h2>
+        <div> 
+            {%for job in jobs%}
+              {%include 'jobitem.html'%}
+          
+            {% endfor %}
+        </div>
         <div class="text-center">
-        <button type="button" class="btn btn-outline-Contack Me"> Contact Me </button>
+        <button type="button" class="btn btn-outline-primary" style="margin-top:10px"> Contact Me </button>
         <p class="mt-4 mb-4">copyright 2025 Yuvraaj</p>
         </div>
         <div>

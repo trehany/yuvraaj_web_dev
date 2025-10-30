@@ -1,0 +1,12 @@
+<div class="border-bottom row" style="padding-bottom:10px;"> 
+    <div class="col-9">
+    <h4 style='color:rgb(0,0,220)'>  {{job['title']}}</h4> 
+       <div>LOCATION: {{job['location']}}</div>
+       {% if 'salary' in job %}
+       <div>SALARY: {{job['salary']}}</div>
+       {% endif %}
+    </div>
+       <div class="col-3">
+       <button class="btn btn-primary" type="submit">Apply</button>
+       </div>
+</div>
