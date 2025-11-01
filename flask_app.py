@@ -15,8 +15,12 @@ JOBS = [
     'title': 'engineer',
     'location': 'Delhi',
     'salary': 'Rs 2' 
+  },
+  { 'title':'software developper',
+    'id':3 ,
+    'location':'pakistan',
+    'salary':'RS 550000'
   }
-  
 ]
     
 
